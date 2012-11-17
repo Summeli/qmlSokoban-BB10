@@ -1,6 +1,9 @@
 qmlsokoban 0.7 - a Sokoban game written in QML
 
+This repository contains a Blackberry 10 port of original qmlSokoban.
+
 Copyright (C) 2010, 2011 Glad Deschrijver <glad.deschrijver@gmail.com>
+Blacberry 10 port by: Summeli
 
 qmlsokoban is free software; you can redistribute it and/or modify it
 under the terms of the GNU General Public License version 3 or later.
