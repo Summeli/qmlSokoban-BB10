@@ -84,6 +84,56 @@ Item {
 		}
 	}
 
+	Item {
+		id: controller
+		anchors.bottom: parent.bottom
+		anchors.right: parent.right
+		width: 200
+		height: 200
+		z: 10
+        Image {
+		   id: up
+		   source: "./images/controller/up.png"
+		   anchors.top: parent.top
+		   anchors.horizontalCenter: parent.horizontalCenter
+		  MouseArea {
+	          anchors.fill: parent
+		      onClicked: { Game.moveUp(); }
+	      }
+		   
+	   }
+       Image {
+          id: left
+          source: "./images/controller/left.png"
+          anchors.left: parent.left
+          anchors.verticalCenter: parent.verticalCenter
+		  MouseArea {
+	          anchors.fill: parent
+		      onClicked: { Game.moveLeft(); }
+	      }          
+       }
+       Image {
+          id: right
+          source: "./images/controller/right.png"
+          anchors.right: parent.right
+          anchors.verticalCenter: parent.verticalCenter
+		  MouseArea {
+	          anchors.fill: parent
+		      onClicked: { Game.moveRight(); }
+	      }          
+       }
+       Image {
+          id: down
+          source: "./images/controller/down.png"
+          anchors.bottom: parent.bottom
+          anchors.horizontalCenter: parent.horizontalCenter
+		  MouseArea {
+	          anchors.fill: parent
+		      onClicked: { Game.moveDown(); }
+	      }          
+       }       				
+		
+	}
 	// Game canvas
 
 	Item {

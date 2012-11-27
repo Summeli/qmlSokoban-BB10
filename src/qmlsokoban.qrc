@@ -31,6 +31,11 @@
 	<file>../qml/menu/MenuPanel.qml</file>
 	<file>../qml/menu/MenuTitle.qml</file>
 	<file>../qml/menu/LevelCollectionArea.qml</file>
+	<file>../qml/gameview/images/controller/up.png</file>
+    <file>../qml/gameview/images/controller/right.png</file>
+	<file>../qml/gameview/images/controller/down.png</file>
+	<file>../qml/gameview/images/controller/left.png</file>
+	
 </qresource>
 
 </RCC>
