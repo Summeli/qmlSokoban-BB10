@@ -2,13 +2,11 @@
 *.a
 *.bar
 *.cproject
-*.project
 .preview*
 .moc
 .obj
 .settings
 .rcc
-qmlSokoban
 arm/Makefile
 arm/Makefile.Debug
 arm/Makefile.Release
