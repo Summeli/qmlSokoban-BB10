@@ -83,7 +83,7 @@ Item {
 			bold: true
 		}
 	}
-
+/* No on-screen controller for Q10
 	Item {
 		id: controller
 		anchors.bottom: parent.bottom
@@ -133,7 +133,7 @@ Item {
 	      }          
        }       				
 		
-	}
+	}*/
 	// Game canvas
 
 	Item {
@@ -231,6 +231,14 @@ Item {
 		Keys.onPressed: {
 			if (event.modifiers == Qt.ControlModifier && event.key == Qt.Key_Z)
 				Game.undo();
+			if(event.key == Qt.Key_W)
+				Game.moveUp();
+			if(event.key == Qt.Key_A)
+				Game.moveLeft();
+			if(event.key == Qt.Key_D)
+				Game.moveRight();
+			if(event.key == Qt.Key_Z)
+				Game.moveDown();
 		}
 	}
 
